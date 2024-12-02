@@ -4,7 +4,7 @@ name: "Hello world workflow"
 on:
   push:
     branches:
-      - master
+      - '*'
       - production
 jobs:
   hello_world:
@@ -14,4 +14,6 @@ jobs:
         run: echo "Hello world"
       - name: "Print current date"
         run: date
+      - name: "Print any branch"
+        run: "any branch executed"
 
