@@ -15,5 +15,5 @@ jobs:
       - name: "Print current date"
         run: date
       - name: "Print any branch"
-        run: "any branch executed"
+        run:  echo "any branch executed"
 
